@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+  background-image: url(./assets/picture/background.jpg);
+  background-size: 100%;
+  background-size: cover;
+  margin: 0px;
+}
+
+/* *************Header************** */
+.container_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.header_icon {
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.header_icon:hover {
+  opacity: 0.8;
+}
+
+.container_profil {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.profil {
+  cursor: pointer;
+}
+
+.profil:hover {
+  opacity: 0.8;
+}
+
+/* **************Time**************** */
+
+.container_time {
+  margin-top: 50px;
+}
+
+.time_txt {
+  color: #FFFFFF;
+  font-size: 96px;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 110%;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.time__morning_txt {
+  color: #FFFFFF;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 48;
+  line-height: 110%;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+/* *********Container_area_Button_Start*************** */
+.container_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 78px;
+  margin-bottom: 50px;
+}
+
+.container_area_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  border: 1px solid #5804FF;
+}
+
+.container_img {
+  width: 100%;
+  height: 60%;
+}
+
+.container_btn {
+  background-color: #5804FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid #5804FF;
+  cursor: pointer;
+}
+
+.container_btn:hover {
+  opacity: 0.7;
+}
+
+.btn_txt {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 115%;
+  font-family: 'Roboto';
+}
+
+.time__morning_txt {
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+/* *********Number_person_online___Start*************** */
+
+.container_number {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 90px;
+}
+
+.container_number_display {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.container_number_person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.number_person_txt {
+  font-weight: 500;
+  font-size: 48px;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0px;
+  width: 100%;
+  font-family: 'Poppins';
+}
+
+.type_person {
+  font-size: 27px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin: 0px;
+  text-align: right;
+  width: 100%;
+  font-family: 'Poppins';
+}
+
+.status_person {
+  color: #FFFFFF;
+  font-size: 27px;
+  font-weight: 500;
+  margin: 0px;
+  width: 100%;
+  text-align: right;
+  font-family: 'Poppins';
+}
+
+@media (max-width: 960px) {
+  .container_number_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
